@@ -1,0 +1,51 @@
+.digital-clock-extended {
+    font-weight: bolder;
+    margin-bottom: 10vh;
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.digit{
+    color: white;
+    font-size: 3rem;
+    margin: 5px;
+    padding: 20px;
+    background: #282c34;
+    font-weight: bolder;
+}
+
+h1{
+    width: 100%;
+}
+
+.led {
+    background: #282c34;
+    border: 4px solid #282c34;
+    box-sizing: border-box;
+    width: 50px;
+    margin-top: 5px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+        
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.on {
+    background: lightgreen;
+}
+
+.binaryClock, .digitalClock {
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    align-items:flex-end;
+}
+
+.ledstrip{
+    margin: 15px;
+}
